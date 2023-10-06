@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <table>
+      <tr class="th">
+        <td>Nombre</td>
+        <td>Precio</td>
+        <td>Transacción</td>
+        <td>Ruta foto (public/images/)</td>
+        <td>Tags</td>
+      </tr>
+        <% for (let i = 0; i < results.length; i++) { %>
+          <tr>
+            <td> <%= results[i].nombre %> </td>
+            <td> <%= results[i].precio %>€ </td>
+            <td>
+              <% if(results[i].venta === true){%> Venta
+              <% } else{ %> Compra <% } %>
+            </td>
+            <td><%= results[i].foto %></td>
+            <td><%= results[i].tags %></td>
+          </tr>
+        <% } %>
+    </table>
+  </body>
+</html>

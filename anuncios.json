@@ -1,0 +1,46 @@
+{
+    "productosIniciales": [
+        {
+            "nombre": "Bicicleta",
+            "venta": true,
+            "precio": 230.15,
+            "foto": "bici.jpg",
+            "tags": [ "lifestyle", "motor"]
+        },
+        {
+            "nombre": "iPhone 3GS",
+            "venta": false,
+            "precio": 50.00,
+            "foto": "iphone.png",
+            "tags": [ "lifestyle", "mobile"]
+        },
+        {
+            "nombre": "Portatil",
+            "venta": true,
+            "precio": 300.00,
+            "foto": "portatil.png",
+            "tags": [ "lifestyle", "work"]
+        },
+        {
+            "nombre": "Patinete electrico",
+            "venta": false,
+            "precio": 75.00,
+            "foto": "patinete.png",
+            "tags": [ "lifestyle", "motor"]
+        },
+        {
+            "nombre": "Cargador iPhone",
+            "venta": true,
+            "precio": 50.00,
+            "foto": "cargador.png",
+            "tags": [ "mobile"]
+        },
+        {
+            "nombre": "Raton",
+            "venta": true,
+            "precio": 60.00,
+            "foto": "raton.png",
+            "tags": [ "work"]
+        }
+    ]
+}
