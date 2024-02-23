@@ -77,4 +77,5 @@ Método: GET
 
 ## Despliegue en AWS
 NodePop (React): 107.23.153.125
+
 NodePop (Node): http://ec2-107-23-153-125.compute-1.amazonaws.com/
